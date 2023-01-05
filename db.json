@@ -1,0 +1,27 @@
+{
+  "Motoritas": [
+    {
+        "id": 1,
+        "CNH": 123456789,
+        "RG": 1234567,
+        "Caminhao": "123-abcd",
+        "Tamanho do bau": [{"altura": 10, "comprimento": 5, "largura": 8}]
+    }
+  ],
+  "Clientes": [
+    { "id": 1,
+      "RG": "some comment",
+      "ENDERECO ORIGEM": "ANCHIETA",
+      "ENDERECO DESTINO": "MADUREIRA",
+      "TAMANHO DA CARGA": [{"altura": 10, "comprimento": 5, "largura": 8}]
+    }
+  ],
+  "Frete": [
+    {
+        "id": 1,
+        "ENDERECO ORIGEM": "ANCHIETA",
+        "ENDERECO DESTINO": "MADUREIRA",
+        "CALCULO DO VALOR DO FRETE": 50
+    }
+  ]
+}
